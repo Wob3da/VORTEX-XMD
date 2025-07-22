@@ -9,12 +9,12 @@ module.exports = {
     // ==============================
     //          SESSION
     // ==============================
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "HansTz&v5xWSJ7S#_ecvy4UXcz7pfKDSN1qy88LL18jUeS579DgSoDzYB_k",
 
     // ==============================
     //           OWNER
     // ==============================
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "233557341764",
     OWNER_NAME: process.env.OWNER_NAME || "HansTech",
     DEV: process.env.DEV || "255614195217",
 
@@ -27,8 +27,8 @@ module.exports = {
     // ==============================
     //            MODE
     // ==============================
-    MODE: process.env.MODE || "public",
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+    MODE: process.env.MODE || "private",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 
     // ==============================
@@ -44,18 +44,18 @@ module.exports = {
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "some",
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     AUTO_REACT: process.env.AUTO_REACT || "false",
-    AUTO_REPLY: process.env.AUTO_REPLY || "false",
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",
+    AUTO_REPLY: process.env.AUTO_REPLY || "true",
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",
     READ_CMD: process.env.READ_CMD || "false",
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
     
     // ==============================
     //           GROUP
     // ==============================
     WELCOME: process.env.WELCOME || "false",
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
-    ANTI_LINK: process.env.ANTI_LINK || "false",
-    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+    ANTI_LINK: process.env.ANTI_LINK || "true",
+    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
     ANTI_BAD: process.env.ANTI_BAD || "false",
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
